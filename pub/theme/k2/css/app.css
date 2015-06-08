@@ -1,0 +1,1659 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    background: black;
+}
+header{
+    background-color: rgb(0,98,165);
+    color: white;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+#menu2{
+    width: 100%;
+}
+#event-contenido {
+    margin-top: 3%;
+    display: inline-flex;
+    width: 98%;
+}
+#informacion {
+    width: 60%;
+    margin-left: 2%
+}
+#compra{
+    color: white;
+    width: 100px;
+    height: 23px;
+    text-align: center;
+    background-color: rgb(0,98,165);
+}
+#hot{
+    color: white;
+    width: 100px;
+    height: 23px;
+    text-align: center;
+    background-color: rgb(0,98,165);
+    margin-left: 2%;
+}
+.visible{
+    display: block;
+}
+.invisible{
+    display: none;
+}
+#park{
+    color: white;
+    width: 100px;
+    height: 23px;
+    text-align: center;
+    background-color: rgb(0,98,165);
+    margin-left: 2%;
+}
+#mapas{
+    margin-top: 3%;
+    margin-left: 12%;
+
+}
+#map{
+    color: white;
+    width: 100px;
+    height: 23px;
+    text-align: center;
+    background-color: rgb(0,98,165);
+}
+#secevent{
+    height: 900px;
+}
+#botones {
+    display: inline-flex;
+    margin-top: 8%;
+}
+#enlace-us{
+    color: white;
+    font-size: 22px;
+}
+#evento{
+    margin-left: 2%;
+    margin-top: 9%;
+}
+#evento h1{
+    margin-top: 9%;
+}
+#gest-user{
+    background: rgb(0,98,165);
+    height: 180px;
+    width: 200px;
+    margin-top: 9%;
+    text-align: center;
+}
+#gest-event{
+    background: rgb(0,98,165);
+    height: 180px;
+    width: 200px;
+    margin-top: 9%;
+    text-align: center;
+}
+#gest-xml a {
+    color: black;
+    font-size: 23px !important;
+    margin-top: 2%;
+}
+#gest-stock{
+    background: rgb(0,98,165);
+    height: 180px;
+    width: 200px;
+    margin-top: 9%;
+    text-align: center;
+}
+#gest-ubi{
+    background: rgb(0,98,165);
+    height: 180px;
+    width: 200px;
+    margin-top: 9%;
+    text-align: center;
+}
+#gest-xml{
+    background: rgb(0,98,165);
+    height: 180px;
+    width: 200px;
+    margin-top: 9%;
+    text-align: center;
+}
+#menu2 a{
+    color: white !important;
+}
+#gest-user a{
+    margin-top: 31%;
+}
+#gest-user img{
+    margin-top: 31%;
+    width: 28%;
+}
+#tabla_eliminar button {
+    width: 110px;
+    height: 110%;
+}
+#columna1insevent {
+    float: left;
+    width: 35%;
+    margin-left: 15%;
+}
+#columna1ubi{
+    float: left;
+    width: 25%;
+    margin-left: 15%;
+    margin-top: -1%;
+}
+#columna2ubi {
+    margin-left: 53%;
+    width: 52%;
+    margin-top: -4%;
+}
+#columna2ubi input[name="aforo"]{
+    margin-left: 18.8%;
+
+}
+#columna2ubi #event {
+    margin-top: 5%;
+}
+#columna1ubi input[name="pais"] {
+    margin-left: 27%;
+}
+#columna1ubi input[name="cp"] {
+    margin-left: 5.7%;
+}
+select[name="provincia"]{
+    width: 174px;
+    margin-left: 16%;
+    height: 23px;
+}
+select[name="poblacion"]{
+    width: 174px;
+    margin-left: 14.5%;
+    height: 23px;
+}
+#columna2ubi input[name="mapa"] {
+    margin-left: 9.4%;
+}
+#columna1insevent input[name="Fecha"] {
+    margin-left: 5%;
+}
+#columna1insevent input[name="hora"] {
+    margin-left: 5%;
+}
+#columna2insevent input[name="fecha"] {
+    margin-left: 3.8%;
+}
+#columna2insevent input[name="puntos"] {
+    margin-left: 5.2%;
+}
+#columna2insevent input[name="Puntos"] {
+    margin-left: 5.2%;
+}
+#event {
+    width: 100px;
+    height: 30px;
+}
+#columna2insevent {
+    margin-left: 53%;
+    width: 52%;
+}
+#enlacexml {
+    color: white !important;
+    font-size: 21px !important;
+}
+#nuevo-us {
+    background: rgb(0,98,165);
+    height: 175px;
+    width: 200px;
+    text-align: center;
+    margin-left: 77%;
+    margin-top: -4.7%;
+}
+#menu2 a{
+    margin-left: 2%;
+    font-size: 22px;
+
+}
+#nuevo-us img{
+    margin-top: 32%;
+    width: 60px;
+}
+#enlacestock {
+    color: white;
+    font-size: 21px;
+}
+#nuevo-us a {
+    color: white;
+    font-size: 21px;
+}
+#nuevo-s a {
+    color: white;
+    font-size: 21px;
+}
+#nuevo-ubi a {
+    color: white;
+    font-size: 20px;
+}
+#nuevo-s {
+    background: rgb(0,98,165);
+    height: 175px;
+    width: 200px;
+    text-align: center;
+    margin-left: 48%;
+    margin-top: -10%;
+}
+#nuevo-s img{
+    margin-top: 19%;
+    width: 60px;
+}
+#enlaceubi {
+    color: white;
+    font-size: 20px;
+}
+#nuevo-ubi{
+    background: rgb(0,98,165);
+    height: 175px;
+    width: 200px;
+    text-align: center;
+    margin-left: 80%;
+    margin-top: -7.5%;
+}
+#nuevo-ubi img{
+    margin-top: 25%;
+    width: 60px;
+}
+#comillas input[name="ubi"]{
+    display: none !important;
+}
+input[name="referencia"]{
+    display: none !important; 
+}
+#tabla_eliminar a {
+    color: black;
+}
+#nuevo-con {
+    background: rgb(0,98,165);
+    height: 175px;
+    width: 200px;
+    text-align: center;
+    margin-left: 77%;
+    margin-top: -5%;
+}
+#nuevo-con img{
+    margin-top: 22%;
+    width: 60px;
+}
+.formreg input[name="fecha"] {
+    margin-left: 2%;
+}
+#columna1insevent[name="fecha"]{
+    margin-left: 22%;
+}
+#nuevo-con a {
+    color: white;
+    font-size: 21px;
+}
+#gest-event img{
+    margin-top: 21%;
+    width: 36%;
+}
+#gest-stock img{
+    margin-top: 21%;
+    width: 36%;
+}
+#gest-ubi img{
+    margin-top: 26%;
+    width: 36%;
+}
+#gest-xml img{
+    margin-top: 21%;
+    width: 36%;
+}
+#menu2 div{
+    margin-left: 3%;
+    font-size: 22px;
+    margin-top: 32%;
+}
+#wrapper h1{
+    font: normal 34pt Roboto;
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    height: 100px;
+    /* float: left; */
+    display: block;
+    top: 22px;
+    width: 880px;
+}
+
+.logo{
+    height: 100px;
+    float:left;
+    display: block;
+
+}
+.header-tit{
+    width: 48%;
+    float:left;
+    display: block;
+}
+#columna1ins{
+    float: left;
+    width: 22%;
+}
+#columna2ins{
+    width: 50%;
+}
+.regist{
+    padding-top: 3px;
+    padding-right: 3px;
+    background-color: rgb(0,98,165);
+    width:50%;
+    text-align: right;
+    float: left;
+    color:white;
+    text-decoration: none;
+    color:white;
+    font-variant: small-caps;
+    margin-top:3%;
+}
+.applet{
+    position:absolute; 
+    top:25%; 
+    left:5%;
+}
+.conciertos{
+    margin-left: 2%;
+    color: black;
+}
+.concierto #compra{
+    margin-top: 2%;
+}
+#licencia{
+    color:white;
+}
+hr{
+    margin-top: 2%;
+
+}
+.izquierda {
+    width: 50%;
+    display: inline;
+}
+
+.regist input[type=text] {
+    margin-left: 0.5em;
+    font-variant: small-caps;
+
+}
+.bEntra{
+    font-variant: small-caps;
+    color:#FFF;
+    background-color: #000;
+
+
+}
+#hello{
+    display: inline-block;
+}
+.registre{
+    padding-top: 3%;
+    padding-right: 3%;
+    width: 80%;
+    margin: auto;
+    display: inline;
+    margin-right: 34%;
+}
+.registre input{
+    height: 23px ;
+    font-size: 14px;
+}
+/* Estilo por defecto */
+
+/*input:valid {
+    background-color: lightgrey;
+    height: 32px !important;
+    width: 56%;
+    margin-top: 10%;
+    margin-left: 0% !important;
+}*/
+.derecha{
+    width: 50%;
+    float: right;
+    margin-top: -15%;
+    margin-right: -5%;
+}
+#global{
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    min-height: 768px;
+    height: auto !important;
+
+}
+
+#login{
+    height:200px;
+
+}
+section{
+    background: #CCC;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+    height: 650px;
+}
+section #home{
+    background: black;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+    height: 650px;
+}
+.registre > #no{border:none;}
+
+
+footer{
+    margin: 3px;
+    padding: 3px;
+    float: none;
+    text-align: center;
+    height: 71px;
+    margin-top: 7%;
+    margin-left: 91%;
+
+}
+form[name="formlog"] {
+    margin-top: 12px;
+    display: inline;
+}
+form[name="formlog"] input{
+    height: 17px !important;
+    left: 1%;
+    width: 44%;
+    display: inline;
+    position: relative;
+}
+input[name="id"]{
+    display: none !important;
+}
+#tit_eliminar{
+    margin-top: 9%;
+    margin-left: 2%;
+
+}
+#tabla_eliminar{
+    margin-left: 2%;
+    margin-top: 2%;
+    color: black;
+    border: 1px solid black;
+}
+#tabla_eliminar input[type="submit"]{
+    width: 114px;
+    height: 33px;
+
+}
+#tabla_eliminar td{
+    border: 1px solid black;
+    text-align: center;
+}
+#cabeceras{
+    background-color: rgb(0,98,165) !important; 
+    color: white;
+}
+#comillas{
+    color: #CCC;
+
+}
+#logsend{
+    height: 28px !important;
+    top: 22px;
+    background-color: grey;
+}
+#menu{
+    width: 95%;
+    margin-top: 7%;
+    margin-left: 3%;
+
+}
+
+#menu > div {
+    display: inline-flex;
+    flex:1;
+    margin-left: 2%;
+}
+
+a{
+    text-decoration: none;
+    color:lightblue;
+}
+#menu a{
+    color:black;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.fa-wrench{
+    margin-left: 2% !important;
+}
+#s-icon {
+    margin-left: 2% !important;
+}
+#wrench {
+    margin-left: 3% !important;
+}
+#menu i{
+    margin-left: 3%;
+    z-index: -1;
+}
+section h2{
+    margin-top: 9%;
+    margin-left: 2%;
+}
+/*section{background-color: lightgrey;}*/
+.derecha input[name="password"]{
+    margin-left: 25%;
+}
+.izquierda input{
+    margin-left: 0%;
+}
+#columna2{
+    width: 50%;
+}
+
+.izquierda input[name="email"]{
+    margin-left: 6.2%;
+}
+.izquierda input[name="dni"]{
+    margin-left: 21%;
+
+}
+.izquierda input[name="telefono"]{
+    margin-left: 15.6%;
+}
+.izquierda input[name="name"] {
+    margin-left: 2%;
+}
+.izquierda input[name="direccion"] {
+    margin-left: 15%;
+}
+.concierto{
+    display: inline-flex;
+    width: 100%;
+    color: black;
+    background-color: #CCC;
+}
+.concierto #texto{
+    width: 79%;
+    margin-left: 2%;
+}
+
+#busqueda hr{
+    margin-top: 0;
+}
+#columna1ubi input[name="direccion"] {
+    margin-left: 15.7%;
+}
+#busqueda {
+    width: 95%;
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+#columna1ubi input[name="nombre"] {
+    margin-left: 6.3%;
+}
+.derecha input{
+    margin-left: 16.2%;
+}
+input[name="Registro"]{
+    margin-left: 0%;
+    width: 20%;
+    height: 32px;
+
+}
+.derecha input[type="submit"]{
+    margin-left: 0%;
+    width: 20%;
+    height: 25px;
+}
+input[name="poblacion"] {
+    margin-left: 14.4%;
+}
+.formreg input[name="fecha"] {
+    margin-left: 3%;
+}
+#columna1{
+    float: left;
+    width: 22%;
+}
+
+/*Home*/
+
+/*Iniciar sesion o registro*/
+#sesion{
+    color: #FFF;
+    position: absolute;
+    margin-left: 88%;
+    float: left;
+}
+.sesion2{
+    margin-left: 89%;
+}
+#sesion a{
+    text-decoration: none;
+    color: white;
+}
+/*Video de la pagina*/
+#video {
+    /* left: 20%; */
+    top: 0%;
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+}
+/*Titulos*/
+.titulos {
+    padding-top: 6%;
+    z-index: 3;
+    color: #FFF;
+    text-align: center;
+
+}
+#frasealea {
+    margin-left: 3px;
+    margin-top: 55px;
+}
+/*Formulario*/
+#formulario {
+    margin-top: 2%;
+    z-index: 3;
+    margin-left: 41%;
+    color: #FFF;
+}
+#searchButton {
+    height: 37px !important;
+    width: 255px !important;
+    font-size: 21px;
+}
+#formulario label {
+    font-size: 21px;
+}
+#formulario input {
+    width: 245px;
+    height: 24px;
+    font-size:20px;
+    margin-top: 2%;
+}
+.formreg{
+    left: 4%;
+    border: 1px solid black;
+    margin-top: 3%;
+    position: relative;
+    padding: 1%;
+    width: 90%;
+    height: 40%;
+}
+.formstock{
+    left: 4%;
+    border: 1px solid black;
+    margin-top: 3%;
+    position: relative;
+    padding: 1%;
+    width: 90%;
+    height: 40%;
+}
+.formstock #columna1ins {
+    float: left;
+    width: 22%;
+    margin-left: 13%;
+    margin-top: 1%;
+}
+#comillas input[name="stock"]{
+    display: none !important;
+}
+.formstock #columna2ins {
+    width: 70%;
+    margin-top: 1%;
+    margin-left: 51%;
+}
+.formstock [name="evento"] {
+    margin-left: 5.2%;
+}
+.formstock [name="precio"] {
+    margin-left: 2.4%;
+}
+.formstock #event {
+    width: 100px;
+    height: 30px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.formstock label {
+    margin-left: 2%;
+}
+#password{
+    left: 3%;
+}
+#username {
+    left: 14.4%;
+}
+.col1{
+    float: left;
+    margin-left: 13%;
+}
+.col1 input[name="name"]{
+    margin-left: 27%;
+}
+.col1 input[name="apellidos"]{
+    margin-left: 25%;
+}
+.col1 input[name="dni"]{
+    margin-left: 36%;
+}
+.col1 input[name="email"]{
+    margin-left: 30%;
+}
+.col1 input[name="fecha"]{
+    margin-left: 1%;
+}
+.col1 input[name="poblacion"] {
+    margin-left: 15%;
+}
+.col1 input[name="nusuario"] {
+    margin-left: 3.9%;
+}
+.col1 input[name="password"] {
+    margin-left: 13%;
+}
+.col1 input[name="rpassword"] {
+    margin-left: 4%;
+}
+.col1 input[name="poblacion"] {
+    margin-left: 15%;
+}
+.col2 input[name="nusuario"] {
+    margin-left: 3.9%;
+}
+.col2 input[name="password"] {
+    margin-left: 13%;
+}
+.col2 input[name="rpassword"] {
+    margin-left: 4%;
+}
+.col2 {
+    margin-left: 53%;
+}
+
+
+/*Queries*/
+@media screen and (max-width: 1200px ) {
+    body {
+        background-color: black;
+    } 
+    footer{
+        height: 86px;
+    }
+    #evento {
+        margin-left: 2%;
+        margin-top: 9%;
+    }
+    #sesion {
+        margin-left: 80% !important;
+        font-size: 21px;
+    }
+    section {
+        height: 768px;
+
+    }
+    #username {
+        left: 16.4%;
+
+    }
+    #menu {
+        width: 95%;
+        margin-top: 9%;
+        margin-left: 1%;
+    }
+    #login {
+        width: 228px !important;
+    }
+    #menu > div {
+        display: inline-flex;
+        flex: 1;
+        margin-left: 1%;
+        margin-top: 4%;
+    }
+    #nuevo-us {
+        background: rgb(0,98,165);
+        height: 175px;
+        width: 200px;
+        text-align: center;
+        margin-left: 81%;
+        margin-top: -5.6%;
+    }
+    .formreg input{
+        width: 120px;
+    }
+    .formstock input {
+        width: 154px;
+    }
+    .formstock {
+        margin-left: 4%;
+        border: 1px solid black;
+        margin-top: 3%;
+        /* position: relative; */
+        padding: 1%;
+        width: 75%;
+        height: 40%;
+    }
+    #nuevo-ubi {
+        background: rgb(0,98,165);
+        height: 155px;
+        width: 150px;
+        text-align: center;
+        margin-left: 86.5%;
+        margin-top: -8.5%;
+    }
+    select[name="poblacion"] {
+        width: 124px;
+        margin-left: 14.5%;
+        height: 23px;
+    }
+    #columna2ubi input[name="mapa"] {
+        margin-left: 10.4%;
+    }
+    select[name="provincia"] {
+        width: 124px;
+        margin-left: 16%;
+        height: 23px;
+    }
+    #columna2ubi input[name="aforo"] {
+        margin-left: 20.8%;
+    }
+    #columna1ubi input[name="cp"] {
+        margin-left: 4.7%;
+    }
+    #columna1ubi input[name="pais"] {
+        margin-left: 29%;
+    }
+    .formstock [name="evento"] {
+        margin-left: 6.2%;
+    }
+    .izquierda input[name="dni"] {
+        margin-left: 24%;
+    }
+    input[name="poblacion"] {
+        margin-left: 16.2%;
+    }
+    .derecha input[name="password"] {
+        margin-left: 26%;
+    }
+    #nuevo-con {
+        background: rgb(0,98,165);
+        height: 175px;
+        width: 200px;
+        text-align: center;
+        margin-left: 77%;
+        margin-top: -5.7%;
+    }
+    #columna2insevent input[name="puntos"] {
+        margin-left: 5.8%;
+    }
+    #nuevo-s {
+        background: rgb(0,98,165);
+        height: 175px;
+        width: 200px;
+        text-align: center;
+        margin-left: 48%;  
+        margin-top: -11.5%;
+    }
+    .formstock #columna1ins {
+        float: left;
+        width: 27%;
+        margin-left: 13%;
+        margin-top: 1%;
+    }
+    .formstock [name="precio"] {
+        margin-left: 3.1%;
+    }
+    .derecha {
+        width: 50%;
+        float: right;
+        margin-top: -17% !important;
+        margin-right: -5%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .titulos{
+        margin-left: 5% !important;
+    }
+    #loginpanel input{
+        height: 25px !important;
+        font-size: 20px;
+    }
+    #sesion {
+        color: #FFF;
+        font-size: 19px ;
+        margin-top: -2%;
+        margin-left: 76% !important;
+    }
+    .sesion2 {
+        margin-top: 1% !important;
+    }
+    #menu2 #gest-user{
+        margin-left: 42% !important;
+    }
+    #menu2 #gest-event{
+        margin-left: 114% !important;
+    }
+    #menu2 #gest-stock{
+        margin-left: 192% !important;
+    }
+    #menu2 #gest-ubi{
+        margin-top: 183% !important;
+        margin-left: -198% !important;
+        font-size: 22px;
+    }
+    #frasealea {
+        margin-top: -8px !important ;
+    }
+    #nuevo-ubi{
+        margin-left: 2%;
+        margin-top: 1.5%;
+    }
+    select[name="provincia"] {
+        width: 124px;
+        margin-left: 17%;
+        height: 23px;
+    }
+    #columna1ubi input[name="pais"] {
+        margin-left: 31%;
+    }
+    #columna1ubi input{
+        width: 124px;
+        height: 23px;
+    }
+    #columna1ubi{
+        width: 30%;
+    }
+    #columna2ubi input{
+        width: 124px;
+        height: 23px;
+    }
+    #menu2 #gest-xml{
+        margin-top: 183% !important;
+        margin-left: -128% !important;
+    }
+    #tit_eliminar {
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+    #columna1ubi input[name="nombre"] {
+        margin-left: 4.3%;
+    }
+    #columna2ubi input[name="mapa"] {
+        margin-left: 14.2%;
+    }
+    #columna1ubi input[name="cp"] {
+        margin-left: 3.7%;
+    }
+    #columna2ubi input[name="aforo"] {
+        margin-left: 28%;
+    }
+    section h2 {
+        margin-top: 12%;
+        margin-left: 2%;
+    }
+    .derecha {
+        margin-top: -27.9% !important;
+    }
+    .sesion2 {
+        margin-left: 81% !important;
+    }
+    #gest-ubi img {
+        margin-top: 11% !important;
+        width: 36%;
+    }
+    #nuevo-us{
+        margin-left: 2%;
+        margin-top: 4.4%;
+    }
+    .sesion2 {
+        color: #FFF;
+        font-size: 19px;
+        margin-left: 76% !important;
+    }
+    #sesion #login {
+        width: 132px !important;
+    }
+    #columna1 {
+        width: 24% !important;
+    }
+    #formreg input{
+        width: 10px !important;
+    }
+
+    .izquierda input[name="email"] {
+        margin-left: 8.2% !important;
+    }
+    .izquierda input[name="name"] {
+        margin-left: 3%;
+    }
+    .izquierda input[name="poblacion"] {
+        margin-left: 19%;
+    }
+    .derecha input[name="password"] {
+        margin-left: 21%;
+    }
+    .derecha input[name="rpassword"] {
+        margin-left: 7%;
+    }
+    #columna2 {
+        width: 62%;
+    }
+    .formreg input[name="fecha"] {
+        margin-left: 0.2% !important;
+    }
+    .izquierda input[name="dni"] {
+        margin-left: 7% !important;
+    }
+    #menu > div {
+        margin-top: -7%;
+    }
+    .derecha input[name="nusuario"] {
+        margin-left: 7% !important;
+    }
+    .derecha {
+        width: 46%;
+        margin-top: -24% !important;
+    }
+    #formulario {
+        margin-left: 35.5% !important;
+        margin-top: 4% !important;
+    }
+
+    #formulario label {
+        font-size: 29px;
+    }
+    .izquierda input[name="dni"] {
+        margin-left: 27% !important;
+    }
+    #formulario input {
+        width: 327px;
+        height: 31px;
+        font-size: 25px;
+    }
+    #showlogin{
+        margin-top: 3%;
+    }
+    form[name="formlog"] input {
+        width: 97%;
+    }
+    #menu > div {
+        margin-left: -2.6%;
+    }
+    #username {
+        left: 2.4%;
+    }
+    #searchButton {
+        height: 51px !important;
+        width: 325px !important;
+        font-size: 21px;
+    }
+    video{
+        display: none;
+    }
+
+    #global{
+        background-image: url("img/bg.png") !important;
+        background-repeat: no-repeat;
+        width: 1008px !important;
+        height: 648px !important;
+        position: absolute;
+        left: -108px;
+        top: 62px;
+    }
+    footer {
+        margin: 3px;
+        padding: 3px;
+        float: none;
+        text-align: center;
+        height: 6px;
+        margin-top: 6% !important;
+        margin-left: 85%;
+    }
+
+    .titulos {
+        margin-top: 3%;
+        z-index: 3;
+        color: #FFF;
+        text-align: center;
+        font-size: 41px;
+        margin-left: 11%;
+    }
+    body {
+        overflow: hidden;
+        background: black;
+    }
+    #frasealea {
+        margin-left: 115px;
+        margin-top: 55px;
+    }
+    #login{
+        z-index:0;
+        position:absolute !important;
+        width: 200px;
+        height: auto;
+    }
+    .formreg input {
+        width: 95px;
+    }
+    #columna2insevent input[name="puntos"] {
+        margin-left: 7.8%;
+    }
+    #columna2insevent input[name="puntos"] {
+        margin-left: 9%;
+    }
+    #columna1insevent input[name="hora"] {
+        margin-left: 9%;
+    }
+    .formreg input[name="fecha"] {
+        margin-left: 4.2% !important;
+    }
+    #nuevo-s{
+        margin-left: 61% !important;
+        margin-top: -15.2% !important;
+
+    }
+    .formstock [name="precio"] {
+        margin-left: 4.1%;
+    }
+    #tabla_eliminar input[type="submit"] {
+        width: 114px;
+        height: 37px;
+    }
+    .formstock [name="evento"] {
+        margin-left: 5%;
+    }
+    .formstock #columna1ins {
+        float: left;
+        width: 36%;
+        margin-left: 4%;
+        margin-top: 1%;
+    }
+    .formstock #columna2ins {
+        width: 70%;
+        margin-top: 1%;
+        margin-left: 43%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #formulario label {
+        font-size: 26px;
+    }
+    #sesion {
+        color: #FFF;
+        font-size: 15px !important;
+        margin-top: -2%;
+    }
+    form[name="formlog"] input {
+        height: 28px !important;
+        font-size: 22px;
+    }
+    #menu {
+        width: 95%;
+        margin-top: 12%;
+        margin-left: 1%;
+    }
+    .sesion2 {
+        margin-left: 79% !important;
+        margin-top: 2% !important;
+    }
+    #tabla_eliminar button {
+        width: 67px;
+        height: 110%;
+    }
+    #nuevo-con {
+        margin-left: 2.2%;
+        margin-top: 7.3%;
+    }
+    input[name="fecha"] {
+        margin-left: 5% !important;
+    }
+    section h2 {
+        margin-top: 14%;
+        margin-left: 2%;
+    }
+    #columna1insevent input[name="fecha"] {
+        margin-left: 6% !important;
+    }
+    .derecha {
+        width: 46%;
+        margin-top: -29% !important;
+    }
+    #columna2insevent input[name="puntos"] {
+        margin-left: 9%;
+    }
+    i.fa.fa-times-circle {
+        margin-left: 4%;
+    }
+    #tabla_eliminar input[type="submit"] {
+        width: 71px;
+        height: 57px;
+    }
+    .formstock #columna1ins {
+        float: left;
+        width: 42%;
+        margin-left: 4%;
+        margin-top: 1%;
+    }
+    .formstock #event {
+        margin-left: -55%;
+
+    }
+    #deja{
+        display: none;
+    }
+    #nuevo-s {
+        margin-left: 61% !important;
+        margin-top: -27.2% !important;
+    }
+    #columna1ubi {
+        margin-left: 8%;
+        width: 46%;
+    }
+    .eliminare {
+        margin-left: 3% !important;
+    }
+    #columna2ubi {
+        margin-top: -6%;
+    }
+    select[name="provincia"] {
+        margin-left: 15.7%;
+    }
+    #columna1ubi input[name="cp"] {
+        margin-left: 6%;
+    }
+    #columna1ubi input[name="nombre"] {
+        margin-left: 6.3%;
+    }
+    #columna1ubi input[name="pais"] {
+        margin-left: 26.8%;
+    }
+    #columna2ubi input[name="aforo"] {
+        margin-left: 33%;
+    }
+    #datepicker{
+        margin-left: 0% !important;
+
+    }
+    #columna2 input[name="fecha"]{
+        margin-left: 0% !important;
+    }
+    #columna2ubi input[name="mapa"] {
+        margin-left: 16.6%;
+    }
+    #columna1ubi input[name="direccion"] {
+        margin-left: 14.7%;
+    }
+    #menu > div {
+        margin-top: -1%;
+        margin-left: -4.6%;
+    }
+    .formstock [name="precio"] {
+        margin-left: 5%;
+    }
+    #sesion {
+        width: 200px;
+        margin-left: 77% !important;
+        font-size: 21px !important;
+    }
+    #formulario {
+        margin-left: 30% !important;
+        margin-top: 3% !important;
+    }
+    #frasealea {
+        margin-left: 3% !important;
+    }
+    #columna1insevent {
+        width: 48%;
+        margin-left: 4%;
+    }
+    #columna1insevent input[name="imagen"] {
+        margin-left: 3%;
+    }
+
+    #a0{
+        display: none;
+    }
+    #tabla_eliminar {
+        margin-left: 2%;
+        margin-top: 2%;
+        color: black;
+        border: 1px solid black;
+    }
+    footer {
+        margin: 3px;
+        padding: 3px;
+        float: none;
+        text-align: center;
+        height: 6px;
+        margin-top: 4% !important;
+        margin-left: 88%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #columna1insevent input[name="hora"] {
+        margin-left: 12%;
+    }
+    #columna1insevent input[name="fecha"] {
+        margin-left: 8% !important;
+    }
+    #busca {
+        margin-top: 21% !important;
+    }
+    #global {
+        width: 754px !important;
+        height: 648px !important;
+        left: -162px;
+    }
+    #sesion {
+        margin-left: 73% !important;
+    }
+    .titulos {
+        padding-top: 15% !important;
+    }
+    #sesion {
+        position: absolute !important;
+        margin-left: 79% !important;
+    }
+    #formulario input {
+        width: 245px !important;
+        height: 37px !important;
+        font-size: 22px !important;
+    }
+    #formulario {
+        margin-left: 33% !important;
+    }
+    footer {
+        margin: 3px;
+        padding: 3px;
+        float: none;
+        text-align: center;
+        height: 6px;
+        margin-top: 11% !important;
+        margin-left: 85%;
+    }
+    .sesion2 {
+        position: absolute !important;
+        margin-left: 77% !important;
+        font-size: 21px;
+    }
+    #menu {
+        width: 95%;
+        margin-top: 16%;
+        margin-left: 1%;
+    }
+    #menu h1{
+        font-size: 33px;
+    }
+    #menu > div {
+        margin-top: -1%;
+        margin-left: -8.6%;
+    }
+    #gest-user {
+        background: rgb(0,98,165);
+        height: 180px;
+        width: 173px;
+        margin-top: 9%;
+        text-align: center;
+    }
+    #gest-event {
+        background: rgb(0,98,165);
+        height: 180px;
+        width: 173px;
+        margin-top: 9%;
+        text-align: center;
+    }
+    #gest-stock {
+        background: rgb(0,98,165);
+        height: 180px;
+        width: 173px;
+        margin-top: 9%;
+        text-align: center;
+    }
+    #menu2 #gest-ubi {
+        margin-top: 293% !important;
+        margin-left: -228% !important;
+        font-size: 30px;
+    }
+    #menu2 #gest-xml {
+        margin-top: 293% !important;
+        margin-left: -128% !important;
+    }
+    #menu2 #gest-user {
+        margin-left: 42% !important;
+        font-size: 33px;
+    }
+    #gest-user img {
+        margin-top: 19%;
+        width: 37%;
+    }
+    #menu2 #gest-stock {
+        margin-left: 242% !important;
+        font-size: 35px;
+    }
+    #menu2 #gest-ubi {
+        margin-top: 263% !important;
+        margin-left: -198% !important;
+        font-size: 33px;
+    }
+    #menu2 #gest-xml {
+        margin-top: 263% !important;
+        margin-left: -78% !important;
+        font-size: 33px;
+
+    }
+    #gest-ubi img {
+        margin-top: 8% !important;
+        width: 46%;
+    }
+    #gest-event img {
+        margin-top: 5%;
+        width: 50%;
+    }
+    #menu2 #gest-event {
+        margin-left: 144% !important;
+        font-size: 33px;
+    }
+    #gest-xml img {
+        margin-top: 12%;
+        width: 46%;
+    }
+
+    #gest-stock img {
+        margin-top: 1%;
+        width: 46%;
+    }
+    gest-xml {
+        margin-top: 263% !important;
+        margin-left: -78% !important;
+        font-size: 31px;
+    }
+    #wrapper h1 {
+        font-size: 37px;
+    }
+    #sesion {
+        position: absolute !important;
+        margin-left: 72% !important;
+        font-size: 22px;
+    }
+    #tit_eliminar {
+        margin-top: 23%;
+        margin-left: 0%;
+        font-size: 32px;
+    }
+    #columna1 {
+        width: 59% !important;
+    }
+    section h2 {
+        margin-top: 19%;
+        margin-left: 2%;
+    }
+    .formreg input[name="apellidos"] {
+        width: 95px;
+        margin-left: 3.6%;
+    }
+    .formreg {
+        left: 4%;
+        border: 1px solid black;
+        margin-top: 3%;
+        position: relative;
+        padding: 1%;
+        width: 90%;
+        height: auto;
+        min-height: 768px;
+    }
+    .derecha {
+        width: 106%;
+        margin-top: -5% !important;
+        margin-left: -15% !important;
+    }
+    .izquierda input[name="dni"] {
+        margin-left: 45% !important;
+    }
+    input[name="password"] {
+        margin-left: 16% !important;
+    }
+    a {
+        color: white;
+        font-size: 23px;
+    }
+    #sesion #login {
+        width: 142px !important;
+    }
+    .registre label{
+        font-size: 21px;
+    }
+    .registre input{
+        font-size: 21px;
+
+    }
+    .derecha input[name="rpassword"] {
+        margin-left: 4%;
+    }
+    .sesion2 {
+        margin-top: 1% !important;
+    }
+    select {
+        height: 32px;
+        width: 100px;
+    }
+    #columna1 input {
+        margin-left: 32% !important;
+    }
+    #columna1 input[name="name"] {
+        margin-left: 35% !important;
+    }
+    #columna1 input[name="email"] {
+        margin-left: 39% !important;
+    }
+    .derecha input[name="nusuario"] {
+        margin-left: 4% !important;
+    }
+    .izquierda input[name="poblacion"] {
+        margin-left: 28.7% !important;
+    }
+    #formstock input {
+        width: 130px;
+    }
+    .formstock #columna1ins {
+        float: left;
+        width: 96%;
+        margin-left: 4%;
+        margin-top: 1%;
+    }
+    .formstock #columna2ins {
+        width: 70%;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    #evento {
+        margin-left: 2%;
+        margin-top: 19%;
+    }
+    #columna1insevent {
+        float: left;
+        width: 49%;
+        margin-left: 5%;
+    }
+    #columna2insevent input[name="puntos"] {
+        margin-left: 15%;
+    }
+    .formstock #event {
+        margin-left: 2%;
+    }
+    input[name="cantidad"] {
+        margin-left: 1% !important;
+    }
+    .formstock [name="precio"] {
+        margin-left: 8.5%;
+    }
+    .formstock [name="evento"] {
+        margin-left: 5.2%;
+    }
+
+    #columna2ubi input[name="mapa"] {
+        margin-left: 20.6%;
+    }
+    #columna2ubi {
+        margin-top: 42%;
+        margin-left: 7%;
+        width: 68%;
+    }
+    #columna2ubi input[name="aforo"] {
+        margin-left: 42%;
+    }
+    #columna1ubi {
+        margin-left: 8%;
+        width: 79%;
+    }
+    select[name="provincia"] {
+        margin-left: 27.7%;
+    }
+    #columna1ubi input[name="cp"] {
+        margin-left: 18%;
+    }
+    select[name="poblacion"] {
+        width: 124px;
+        margin-left: 26.5%;
+        height: 23px;
+    }
+    #columna1ubi input[name="direccion"] {
+        margin-left: 27.7%;
+    }
+    #columna1ubi input[name="nombre"] {
+        margin-left: 19%;
+    }
+    #columna1ubi input[name="pais"] {
+        margin-left: 37%;
+    }
+    #frasealea {
+        margin-left: 115px;
+        margin-top: -65px !important;
+    }
+    #sesion {
+        width: 200px;
+        margin-left: 68% !important;
+    }
+}

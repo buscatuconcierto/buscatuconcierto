@@ -1,0 +1,18 @@
+{
+	"driver":"mysql",
+    "dbname":"2daw01_buscatuconcierto",
+    "dbhost":"localhost",
+    "dbuser":"2daw01_root",
+    "dbpass":"root",
+	"app_data":{
+    	"css":"css/app.css",
+    	"js":"js/application.js",
+        "titol":"BuscaTuConcierto",
+        "logo":"img/logo.png",
+        "video":"video/concert.mp4",
+        "apli":"KMan",
+        "theme":"pub/themes/k/",
+        "favicon":"/img/favicon.png",
+        "app_w":""
+    }
+}

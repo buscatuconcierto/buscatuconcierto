@@ -1,0 +1,121 @@
+/*Home*/
+body {
+  background-color: black; }
+
+/*Iniciar sesion o registro*/
+#sesion {
+  position: absolute !important;
+  margin-left: 83%; }
+
+#sesion a {
+  text-decoration: none;
+  color: white; }
+
+/*Video de la pagina*/
+#video {
+  /* left: 20%; */
+  top: 0%;
+  position: absolute;
+  z-index: -2;
+  width: 100%; }
+
+/*Titulos*/
+.titulos {
+  margin: 0;
+  padding-top: 6%;
+  z-index: 3;
+  color: #FFF;
+  text-align: center;
+  font-size: 32px; }
+
+#frasealea {
+  margin-left: 0%;
+  margin-top: 0%;
+  font-size: 25px; }
+
+/*Formulario*/
+#formulario {
+  margin-top: 2%;
+  z-index: 3;
+  margin-left: 41%;
+  color: #FFF; }
+
+#searchButton {
+  height: 37px !important;
+  width: 255px !important;
+  font-size: 21px; }
+
+#formulario label {
+  font-size: 21px; }
+
+#formulario input {
+  width: 245px;
+  height: 24px;
+  font-size: 20px; }
+
+#global {
+  height: 770px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: -1; }
+
+/*Queries*/
+/*Ipad 3/4*/
+@media (max-width: 1024px) {
+  #sesion {
+    color: #FFF;
+    margin-left: 73%;
+    font-size: 24px; }
+
+  #formulario {
+    margin-left: 40%; }
+
+  #formulario label {
+    font-size: 29px; }
+
+  #formulario input {
+    width: 327px;
+    height: 31px;
+    font-size: 25px; }
+
+  #searchButton {
+    height: 51px !important;
+    width: 325px !important;
+    font-size: 21px; }
+
+  video {
+    display: none; }
+
+  #global {
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    width: 1132px;
+    height: 651px;
+    position: absolute;
+    left: -108px;
+    top: 62px; }
+
+  .titulos {
+    margin-top: 3%;
+    z-index: 3;
+    color: #FFF;
+    text-align: center;
+    font-size: 41px;
+    margin-left: 11%; }
+
+  body {
+    overflow: hidden;
+    background: black; }
+
+  #frasealea {
+    margin-left: 115px;
+    margin-top: 55px; } }
+#login {
+  z-index: 0;
+  position: absolute !important;
+  width: 174px;
+  height: auto; }
+
+/*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=main.css.map */

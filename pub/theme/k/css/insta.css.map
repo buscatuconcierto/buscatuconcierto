@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,WAAW,EAAE,oBAAoB;EACjC,gBAAgB,EAAE,SAAS",
+"sources": ["insta.scss"],
+"names": [],
+"file": "insta.css"
+}
